@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width ="match_parent"
+    android:layout_height ="wrap_content"
+    android:orientation ="vertical"
+    android:padding ="16dp">
+    <EditText
+        android:id="@+id/editTextGameName"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:hint="Nome do Jogo" />
+    <EditText
+        android:id="@+id/editTextGameDescription"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:hint="Descrição do Jogo" />
+</LinearLayout >
